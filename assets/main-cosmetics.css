@@ -1,0 +1,124 @@
+.navigation {
+    background-color: #38893B;
+    height: 70px;
+    /* overflow:  hidden; */
+    position: relative;
+}
+.navigation h1.title {
+    text-align: center;
+}
+
+section.main {
+    background-color: #fff;
+}
+section.main h3{
+    display: block;
+    font-size: 28px;
+    color: #38893B;
+    padding: 20px;
+}
+section.main h3 span {
+    display: block;
+    font-size: 15px;
+    color: #000;
+}
+section.main .main-bckg {
+    background: url('./img/back-fon.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+}
+section.main .order-button,section.second-block .order-button {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 28px;
+    background: linear-gradient(180deg, #38893B 0%, #50B83F 100%);
+    box-shadow: 0px 4px 15px rgba(151, 255, 70, 0.77);
+    border-radius: 65px;
+    width: 280px;
+    margin: 20px;
+}
+
+.main-map {
+    background: url('./img/italy-1489369_2x.png');
+    background-position: center right;
+    background-size: contain;
+    background-color: #eef6e1;
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+}
+section.main ul.main-list {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+section.main ul.main-list li {
+    background-size: contain;
+    background-position: center center;
+    /* width: 50px; */
+    height: 50px;
+}
+section.main ul.main-list li:nth-child(1){
+    background: url('./img/privelegies/number1.svg');
+    background-repeat: no-repeat;
+}
+section.main ul.main-list li:nth-child(2){
+    background: url('./img/privelegies/ingr.svg');
+    background-repeat: no-repeat;
+}
+section.main ul.main-list li:nth-child(3){
+    background: url('./img/privelegies/anim.svg');
+    background-repeat: no-repeat;
+}
+section.main ul.main-list li span {
+    color: #38893B;
+    font-weight: 700;
+    line-height: normal;
+}
+/*Section products*/
+section.second-block h3.welcome-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 28px;
+    text-align: center;
+    color: #38893B;
+    padding: 20px;
+}
+
+section.second-block .product-img {
+    text-align: center;
+}
+section.second-block .product-img img{
+    max-height: 250px;
+    height: 100%;
+    width: auto;
+}
+section.second-block h4.product-title {
+    padding: 15px;
+    color: #38893B;
+    font-weight: 700;
+}
+section.second-block h4.product-title span {
+    font-weight: 100;
+    font-style: italic;
+    /* font-family: cursive; */
+    color: #000;
+}
+section.second-block p.product-text{
+    padding: 15px;
+}
+section.second-block .order-button{
+    color: #38893B;
+    background: #FFFFFF;
+    border: 5px solid rgba(165, 226, 67, 0.77);
+    box-sizing: border-box;
+}
+
+/*Section checkout*/
+section.checkout {
+    background-color: #EFF6E2;
+}
